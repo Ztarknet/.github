@@ -42,7 +42,7 @@ flowchart LR
   TR --> PROV[Stwo/Cairo Prover]
   PROV --> SUB[Submitter]
   subgraph Zcash L1
-    ZN[Zebra (fork)]
+    ZN[Zebra]
     TZE[TZE / Opcode Verify]
     CHAIN[Consensus]
   end
