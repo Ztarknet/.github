@@ -50,9 +50,6 @@ flowchart LR
   ZN --> TZE --> CHAIN
 ```
 
-* **TZE path:** proof and public inputs live in a TZE witness; verification is a deterministic extension call in consensus.
-* **Opcode fallback:** proof/public inputs are carried in a bounded per‑input v6 witness area; `OP_STARK_VERIFY` reads them and runs the Rust Stwo verifier.
-
 ---
 
 ## How to get started
